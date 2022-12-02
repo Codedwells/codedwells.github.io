@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./src/icons/developer-favi.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+    <title>Awells dev</title>
+  </head>
+  <body>
+    <nav id="nav-bar" class="nav-shadow">
+      <img
+        onclick="showSidebar()"
+        src="./src/icons/circled-menu-100.png"
+        alt=""
+        class="hamburger"
+      />
+      <div class="avatar-container">
+        <img src="./src/avatar.jpeg" alt="" />
+        <span>Abel</span>
+      </div>
+      <ul id="sidebar">
+        <li><a href="#about" onclick="showSidebar()">About</a></li>
+        <li><a href="#skills" onclick="showSidebar()"> Skills</a></li>
+        <li><a href="#contacts" onclick="showSidebar()"> Contact</a></li>
+        <li><a href="#resume" onclick="showSidebar()"> Resume</a></li>
+        <li><a href="#projects" onclick="showSidebar()"> Projects</a></li>
+      </ul>
+    </nav>
+
+    <section class="headline">
+      <div class="left-container">
+        <div class="headline-title">
+          <h1>
+            <span style="color: #e4bb68">Console</span
+            ><span style="color: #69282e">.</span
+            ><span style="color: #e06c75">log</span
+            ><span class="closures"
+              >("&nbsp; &nbsp; &nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ");</span
+            >
+          </h1>
+          <div class="greetings-container">
+            <div class="string">
+              <h1 class="greeting en">Hello World!</h1>
+              <h1 class="greating es">iHola Mundo!</h1>
+              <h1 class="greating de">Hello Welt!</h1>
+              <h1 class="greating it">Ciao Mondo!</h1>
+            </div>
+          </div>
+        </div>
+        <p class="headline-description">
+          <span class="top-hey hey-section">Hey&#128075;&#127997;,</span>
+          <span class="hey-section">my name is Abel.</span>
+          <span class="headline-text">
+            I am an Enthusiastic Junior fullstack JavaScript developer with 1
+            year experience in web development and design. I am looking to
+            deliver excellent web development skills in JavaScript to help grow
+            you business.
+          </span>
+        </p>
+      </div>
+      <div class="right-container">
+        <img src="./src/mern-min.jpeg" alt="mern stack image" />
+      </div>
+      <span id="about"></span>
+    </section>
+    <hr />
+    <section class="about-section">
+      <div class="services-contacts">
+        <div class="about-left">
+          <img src="./src/icons/developer-favi.png" alt=""">
+        </div>
+        <div class="about-right">
+          <h2 class="about-heading">About</h2>
+          <p class="about-description">
+            An enthusiastic developer who loves combining the worlds of logic
+            and creative design to make eye-catching, accessible, and
+            user-friendly web applications. Technology leads, society follows.
+            The move towards increasing inclusivity and diversity in the
+            industry is important to me.
+          </p>
+        </div>
+      </div>
+      <span id="skills"></span>
+      <div class="services-contacts">
+        <div class="about-left">
+          <img src="./src/icons/developer-favi.png" alt=""">
+        </div>
+        <div class="about-right">
+          <h2 class="about-heading">Skills</h2>
+          <div class="skill-list">
+            <div class="stack-container">
+              <img src="./src/icons/javascript.png" alt="" class="tech-stack" />
+              <span class="stack-span">JavaScript</span>
+            </div>
+            <div class="stack-container">
+              <img src="./src/icons/mongodb.png" alt="" class="tech-stack" />
+              <span class="stack-span">MongoDB</span>
+            </div>
+            <div class="stack-container">
+              <img src="./src/icons/express.png" alt="" class="tech-stack" />
+              <span class="stack-span">expressJS</span>
+            </div>
+            <div class="stack-container">
+              <img src="./src/icons/react.png" alt="" class="tech-stack" />
+              <span class="stack-span">ReactJS</span>
+            </div>
+            <div class="stack-container">
+              <img src="./src/icons/nodejs.png" alt="" class="tech-stack" />
+              <span class="stack-span">NodeJS</span>
+            </div>
+            <div class="stack-container">
+              <img src="./src/icons/redux.png" alt="" class="tech-stack" />
+              <span class="stack-span">Redux</span>
+            </div>
+            <div class="stack-container">
+              <img src="./src/icons/tailwind.png" alt="" class="tech-stack" />
+              <span class="stack-span">Tailwind</span>
+            </div>
+            <div class="stack-container">
+              <img src="./src/icons/postman.png" alt="" class="tech-stack" />
+              <span class="atack-span">Postman</span>
+            </div>
+            <div class="stack-container">
+              <img src="./src/icons/figma.png" alt="" class="tech-stack" />
+              <span class="atack-span">Figma</span>
+            </div>
+            <div class="stack-container">
+              <img src="./src/icons/github.png" alt="" class="tech-stack" />
+              <span class="atack-span">Github</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span id="contacts"></span>
+      <div class="services-contacts">
+        <div class="about-left">
+          <img src="./src/icons/developer-favi.png" alt="" />
+        </div>
+        <div class="about-right">
+          <h2 class="about-heading">Contact me</h2>
+          <div class="contacts-master">
+            <div class="contact-grid">
+              <div class="contact-container">
+                <img
+                  src="./src/icons/github.png"
+                  alt="github icon"
+                  class="contact-img"
+                />
+                <a href="http://github.com/Codedwells" target="_blank"
+                  >GitHub</a
+                >
+              </div>
+              <div class="contact-container">
+                <img
+                  src="./src/icons/linkinblu.png"
+                  alt="linkedin icon"
+                  class="contact-img"
+                />
+                <a
+                  href="http://www.linkedin.com/in/abel-misiocha-opanga"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </div>
+              <div class="contact-container">
+                <img
+                  src="./src/icons/twitter.png"
+                  alt="twitter icon"
+                  class="contact-img"
+                />
+                <a
+                  href="http://twitter.com/a_wellsdev"
+                  target="_blank"
+                  id="resume"
+                  >Twitter</a
+                >
+              </div>
+              <div class="contact-container">
+                <img
+                  src="./src/icons/link3d.png"
+                  alt="linktree icon"
+                  class="contact-img"
+                />
+                <a href="https://linktr.ee/awells_dev" target="_blank"
+                  >Linktree</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="resume-download" id="projects">
+        Download resume<a href=""> here!</a>
+      </h3>
+    </section>
+    <hr />
+    <section class="projects">
+      <p class="projects-title">My projects</p>
+      <div class="project-container">
+        <div class="project-card card1">
+          <img src="./src/blackjack-min.png" alt=" blackjack game" />
+          <div class="project-description">
+            This is a blackjack game made using Vanilla JavaScript. It has
+            simple functionality and will get updates with time.
+          </div>
+        </div>
+        <div class="project-card card2">
+          <img src="./src/analog-min.png" alt="analog clock" />
+          <div class="project-description">Analog clock. It shows time :)</div>
+        </div>
+        <div class="project-card card3">
+          <img src="./src/calculator-min.png" alt="calculator" />
+          <div class="project-description">
+            This is a calculator that has all basic functionality. It can do all
+            basic math expressions without fail.
+          </div>
+        </div>
+        <div class="project-card card4">
+          <img src="./src/task-manager-min.png" alt="task manager" />
+          <div class="project-description">
+            This is a basic react app that one can use to manage their daily
+            tasks. It was made as I learned the context api.
+          </div>
+        </div>
+      </div>
+      <div class="locator">
+        <img
+          class="corousel-prev nav-btn back"
+          src="./src/icons/leftc.png"
+          alt="go back"
+        />
+        <img
+          class="corousel-next nav-btn forward"
+          src="./src/icons/rightc.png"
+          alt="go forward"
+        />
+      </div>
+    </section>
+    <hr />
+
+    <section class="lower-section">
+      <div class="left-part">
+        <p class="left-comment"></p>
+        <p class="left-description">
+          This feature may not be fully functional if this text says this. An
+          update is being worked on to add it. Leave an email instead. Thanks
+          for visiting.
+        </p>
+      </div>
+      <form action="submit" method="post">
+        <input type="text" name="name" placeholder="Name" />
+        <input type="email" name="email" placeholder="you@gmail.com" />
+        <textarea
+          name="comment"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Leave a message"
+        ></textarea>
+        <button type="button" onclick="handleSubmit()">Submit</button>
+      </form>
+    </section>
+    <footer>Made with &#x2764; by Abel &#169; 2022</footer>
+  </body>
+</html>
