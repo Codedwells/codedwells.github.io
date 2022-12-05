@@ -526,6 +526,17 @@ button:active {
 }
 
 /* ////////////////////MEDIA QUERIES/////////////////////// */
+
+/* Laptops 1280px*/
+@media screen and (max-width:1280px){
+  .greetings-container {
+    top: -5.5rem;
+    left: 18.6rem;
+   
+  }
+
+}
+
 /* tablets 1242px */
 @media screen and (max-width: 1242px) {
   body {
@@ -596,6 +607,8 @@ button:active {
     padding: 0 1rem 0 1rem;
   }
 }
+
+
 
 /* phones 480px */
 
