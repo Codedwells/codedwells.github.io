@@ -14,7 +14,7 @@ const checkScroll = () => {
     nav.classList.add("nav-border");
   }
 };
-window.addEventListener("scroll",checkScroll,false);
+window.addEventListener("scroll", checkScroll, false);
 
 //sidebar
 
@@ -31,8 +31,8 @@ const showSidebar = (e) => {
   }
   sidebar.classList.toggle("show-sidebar");
 };
-// Projects Carousel
 
+// Projects Carousel
 
 const handleSubmit = () => {
   alert("Feature to be added soon. Thanks for visiting.");

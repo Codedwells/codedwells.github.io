@@ -15,9 +15,8 @@ html {
 body {
   width: 100vw;
   padding-top: 10rem;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
-
 
 a {
   text-decoration: none;
@@ -35,7 +34,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height:4rem ;
+  height: 4rem;
   width: 100vw;
   z-index: 3;
   top: 0;
@@ -55,7 +54,6 @@ nav {
   border-bottom: 1px solid rgb(201, 201, 201);
 }
 
-
 nav ul {
   display: flex;
   align-items: center;
@@ -72,7 +70,7 @@ nav ul li {
 }
 
 /* hamburger */
-.hamburger{
+.hamburger {
   width: 2.3rem;
   display: none;
 }
@@ -92,7 +90,6 @@ nav ul li {
   width: 50px;
   height: 50px;
   object-fit: cover;
-
 }
 
 /* headline */
@@ -105,7 +102,7 @@ nav ul li {
   padding-left: 2rem;
 }
 
-.headline-text{
+.headline-text {
   display: block;
 }
 
@@ -209,7 +206,7 @@ h1 span {
 
 .services-contacts {
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   flex-direction: row;
   gap: 4rem;
   margin-top: 3rem;
@@ -222,20 +219,19 @@ h1 span {
   text-align: left;
 }
 
-
 .about-description {
   font-size: 1.2em;
   max-width: 40rem;
   text-align: left;
 }
 
-.about-left{
+.about-left {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.about-left img{
+.about-left img {
   width: 8rem;
   height: 8rem;
 }
@@ -249,32 +245,30 @@ h1 span {
 
 /* skills */
 
-.tech-stack{
-  width:3rem;
+.tech-stack {
+  width: 3rem;
 }
 
-
-.skill-list{
+.skill-list {
   margin-top: 2rem;
-  display:grid;
+  display: grid;
   gap: 1rem;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
 }
 
-.stack-container{
+.stack-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.stack-span{
+.stack-span {
   font-size: 0.9em;
 }
 
 /* contacts */
-.contact-grid{
+.contact-grid {
   display: grid;
   column-gap: 2rem;
   row-gap: 1rem;
@@ -283,18 +277,16 @@ h1 span {
   margin: auto;
 }
 
-.contact-container{
+.contact-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:row;
+  flex-direction: row;
 }
 
-.contact-img{
-  width:2.8rem ;
+.contact-img {
+  width: 2.8rem;
 }
-
-
 
 /* footer */
 
@@ -467,6 +459,14 @@ footer {
   max-width: 29rem;
 }
 
+.left-description a {
+  color: rgb(8, 151, 103);
+}
+
+.left-description a:hover {
+  color: rgb(46, 207, 154);
+}
+
 /* form */
 
 form {
@@ -519,12 +519,10 @@ button:hover {
   color: rgb(6, 150, 155);
 }
 
-button:active{
+button:active {
   color: white;
   background-color: rgb(6, 150, 155);
-
 }
-
 
 /* ////////////////////MEDIA QUERIES/////////////////////// */
 /* tablets 1242px */
@@ -606,23 +604,22 @@ button:active{
     overflow-x: hidden;
   }
 
-
   /* Nav bar */
-nav{
-  padding-left: 1.5rem;
-}
+  nav {
+    padding-left: 1.5rem;
+  }
 
-.avatar-container{
-  margin-right:-2.5rem ;
-  flex-direction: row-reverse;
-}
+  .avatar-container {
+    margin-right: -2.5rem;
+    flex-direction: row-reverse;
+  }
 
-.avatar-container span{
-  display: none;
-}
+  .avatar-container span {
+    display: none;
+  }
 
-  nav ul{
-    background-color:white;
+  nav ul {
+    background-color: white;
     position: fixed;
     height: 35rem;
     width: 19rem;
@@ -636,22 +633,20 @@ nav{
     padding-top: 3rem;
     flex-direction: column;
     transition: all ease-in 0.5s;
-
   }
 
-  .show-sidebar{
+  .show-sidebar {
     left: 0;
   }
 
-  nav ul li{
+  nav ul li {
     font-size: 1.2em;
     font-weight: 600;
   }
 
   /* .hamburger */
-  .hamburger{
+  .hamburger {
     display: inline;
-
   }
 
   .headline {
@@ -735,7 +730,6 @@ nav{
     flex-direction: column;
   }
 
-
   .about-description,
   .about-heading {
     text-align: center;
@@ -747,15 +741,13 @@ nav{
     max-width: 14rem;
   }
 
-  .contact-grid{
+  .contact-grid {
     margin-top: 2rem;
   }
 
-  .skill-list{
+  .skill-list {
     grid-template-columns: 1fr 1fr 1fr;
   }
-
-
 
   /* projects section */
   .project-card {
@@ -806,25 +798,24 @@ nav{
     left: 4rem;
   }
 
-  .greetings-container{
-    top: -1.9rem;
-    left: 10.5rem;
-  }
-}
-
-/* Phone 393px */
-@media screen and (max-width: 393px){
-body{
-  padding-top: 13rem;
-  overflow-x: hidden;
-}
-
   .greetings-container {
     top: -1.9rem;
     left: 10.5rem;
   }
 }
 
+/* Phone 393px */
+@media screen and (max-width: 393px) {
+  body {
+    padding-top: 13rem;
+    overflow-x: hidden;
+  }
+
+  .greetings-container {
+    top: -1.9rem;
+    left: 10.5rem;
+  }
+}
 
 /* Phone 390px */
 
@@ -857,7 +848,7 @@ body{
     width: 21.5rem;
   }
 
-  body{
+  body {
     padding-top: 15rem;
   }
 }
@@ -875,7 +866,7 @@ body{
     left: 10.5rem;
   }
 
-  .project-container{
+  .project-container {
     margin-top: 0;
   }
 
