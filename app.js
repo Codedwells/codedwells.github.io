@@ -104,12 +104,8 @@ const handleShift = (e) => {
   setTimeout(setTimeouts, 8000);
 };
 
-window.onload =()=>{
-  alert(`Hello there, this site has been depricated. View new site here`)
-}
-
 if(window.confirm("Visit the new site ?")){
-            window.open('https://abeldev.site');
+            window.location.href = 'https://abeldev.site';
          }
 
 for (let btn of buttons) {
