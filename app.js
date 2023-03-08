@@ -104,9 +104,11 @@ const handleShift = (e) => {
   setTimeout(setTimeouts, 8000);
 };
 
+setTimeout(()=>{
 if(window.confirm("Visit the new site ?")){
             window.location.href = 'https://abeldev.site';
          }
+},4000);
 
 for (let btn of buttons) {
   btn.addEventListener("click", handleShift);
